@@ -1,0 +1,33 @@
+{
+    "hosting": {
+        "public": "public-files",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "headers": [
+            {
+                "source": "**/*.@(jpg|jpeg|gif|png)",
+                "headers": [
+                    {
+                        "key": "Cache-Control",
+                        "value": "public, max-age=31536000"
+                    }
+                ]
+            }
+        ]
+    },
+    "flutter": {
+        "platforms": {
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "treasuretracker-27d0b",
+                    "configurations": {
+                        "web": "1:3635716350:web:a84053811669a3857e05af"
+                    }
+                }
+            }
+        }
+    }
+}
