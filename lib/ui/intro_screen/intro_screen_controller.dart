@@ -3,6 +3,6 @@ import 'package:treasure_tracker/routes/app_pages.dart';
 
 class IntroScreenController extends GetxController {
   void navigateToLogin() {
-    Get.rootDelegate.toNamed(AppRoutes.login);
+    Get.rootDelegate.toNamed(AppRoutes.createAccount);
   }
 }

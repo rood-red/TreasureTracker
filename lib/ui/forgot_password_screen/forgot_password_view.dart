@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:treasure_tracker/ui/reset_password_screen/reset_password_controller.dart';
+import 'package:treasure_tracker/ui/forgot_password_screen/forgot_password_controller.dart';
 import 'package:treasure_tracker/widgets/reusable_textbox.dart';
 import 'package:treasure_tracker/widgets/reusable_textbox_with_title.dart';
 
-class ResetPasswordView extends GetView<ResetPasswordController> {
-  const ResetPasswordView({super.key});
+class ForgotPasswordView extends GetView<ForgotPasswordController> {
+  const ForgotPasswordView({super.key});
 
   @override
   Widget build(BuildContext context) {
