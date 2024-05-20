@@ -8,7 +8,7 @@ import 'package:treasure_tracker/routes/app_pages.dart';
 import 'package:treasure_tracker/services/api/fetch_firebase.dart';
 import 'package:treasure_tracker/services/models/user_details_model.dart';
 
-class LoginController extends GetxController {
+class CreateAccountController extends GetxController {
   final FirestoreService _firestoreService = Get.find<FirestoreService>();
 
   final loginFormKey = GlobalKey<FormState>();
@@ -50,7 +50,7 @@ class LoginController extends GetxController {
         if (users.isNotEmpty) {
           isLoading.value = false;
 
-          Get.rootDelegate.toNamed(AppRoutes.welcome);
+          Get.rootDelegate.toNamed(AppRoutes.login);
         } else {
           isLoading.value = false;
           Get.rootDelegate.toNamed(AppRoutes.signup,

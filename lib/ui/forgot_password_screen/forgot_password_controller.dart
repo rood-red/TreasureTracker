@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:logger/logger.dart';
 
-class ResetPasswordController extends GetxController {
+class ForgotPasswordController extends GetxController {
   var logger = Logger();
 
   final FirebaseAuth _auth = FirebaseAuth.instance;

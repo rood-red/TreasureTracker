@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:treasure_tracker/ui/login_screen/login_screen_controller.dart';
+import 'package:treasure_tracker/ui/create_account/create_account_controller.dart';
 
-class LoginScreen extends GetView<LoginController> {
-  const LoginScreen({Key? key}) : super(key: key);
+class CreateAccountScreen extends GetView<CreateAccountController> {
+  const CreateAccountScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
